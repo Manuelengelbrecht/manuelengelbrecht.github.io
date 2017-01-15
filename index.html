@@ -551,52 +551,12 @@ Es besteht eine Berufshaftpflichtversicherung bei der Barmenia AG, 42094 Wuppert
         </div>
     </div>
     
-    <!-- Impressum & Footer -->
+    <!-- Latest JQ -->
     <script src="http://code.jquery.com/jquery-latest.js"></script>
-<script>
-    //Show Impressum with anchor
-    $(document).ready(function(){
-        $("#ImpressumA").click(function() {
-        $("#Impressum").toggle();
-        });
-    //Hide Impressum with notice
-    $("#Impressum_notice").click(function() {
-        $("#Impressum").hide();
-        });    
-    // Hide Impressum notice (only shpown when hovering Impressum)
-        $("#Impressum_notice").hide(); // hide the fixed navbar initially
-
-        var topofDiv = $("#Impressum").offset().top; //gets offset of Impressum
-        var height = $("#Impressum").outerHeight(); //gets height of Impressum
-        var winheight = $( window ).height();
-
-        $(window).scroll(function(){
-            if($(window).scrollTop() > (topofDiv + height + winheight)){
-               $("#Impressum_notice").show();
-            }
-            else{
-               $("#Impressum_notice").hide();
-            }
-        });
-    //Hide footer & Name when scrolling
-
-        var topofDiv2 = $("#portfolio").offset().top; //gets offset of contact section
-        var height2 = $("#footer").outerHeight(); //gets height of section
-
-        $(window).scroll(function(){
-            if($(window).scrollTop() > (topofDiv2 - 2*height2)){
-               $("#Footer_fix").fadeOut("slow");
-                $(".DoubleHeader").fadeOut("fast");
-            }
-            else{
-               $("#Footer_fix").show();
-                $(".DoubleHeader").show();
-            }
-        });
-        
-});
-</script>
     
+        <!-- Impressum & Footer -->
+    <script src="vendor/jquery/Impressum.js"></script>
+
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
