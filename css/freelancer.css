@@ -68,7 +68,7 @@ hr.star-primary:after {
   margin: 0 auto;
 }
 header {
-    padding-top: 30vh;
+    padding-top: 20vh;
       background-image: url("https://hips.hearstapps.com/cos.h-cdn.co/assets/cm/14/25/53a0abaf4ac6e_-_cos-01-female-ceo-de.jpg");
   background-size: cover;
   background-position: center;
@@ -185,7 +185,7 @@ text-decoration: underline;
     transition: padding 0.3s;
   }
   .navbar-custom .navbar-brand {
-    font-size: 1.5em;
+    font-size: 1em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -197,7 +197,7 @@ text-decoration: underline;
     }
     
     .DoubleHeader {
-        height: 4em;
+        height: 2em;
         border-color: white;
         border-width: 1px;
         border-style: solid;
