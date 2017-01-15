@@ -4202,7 +4202,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     display: block !important;
     height: auto !important;
     padding-bottom: 0;
-    overflow: visible !important;
+    overflow: visible!important;
   }
   .navbar-collapse.in {
     overflow-y: visible;
@@ -6755,6 +6755,3 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-    #subtitle {
-        text-align: left;
-    }

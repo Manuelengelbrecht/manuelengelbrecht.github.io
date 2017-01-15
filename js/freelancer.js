@@ -1,8 +1,10 @@
 // Freelancer Theme JavaScript
 
+                           
 (function($) {
-    "use strict"; // Start of use strict
-
+    "use strict"; // Start of use strict    
+    
+    
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('.page-scroll a').bind('click', function(event) {
         var $anchor = $(this);
