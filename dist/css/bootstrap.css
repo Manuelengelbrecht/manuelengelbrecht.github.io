@@ -9334,7 +9334,7 @@ color: rgba(255, 255, 255, 0.6);
 #jumbo-cont {
  height: 100%;
     width: 100%;
-    padding: 0vw 10vw;
+    padding: 0vw 0vw;
 }
 
 .Supporttext {
@@ -9410,6 +9410,11 @@ position: absolute;
   box-sizing:border-box;
    }
 
+@media (max-width: 950px) {
+#jumbotron-black {
+padding: 5vw;
+  }
+}
 
 
 /* references */
