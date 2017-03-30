@@ -9430,7 +9430,7 @@ padding: 5vw;
 }
 
 #references-row {
-    background-color: #FFEE00;
+    background-color: #000000;
     height: auto;
     display: inline-flex; 
     justify-content: center;
@@ -9525,6 +9525,10 @@ filter: invert(30%);
 #jumbotron1:hover{ 
   transform: scale(1.5);
         transition:all 0.5s;
+
+}
+
+#player {
 
 }
 /*# sourceMappingURL=bootstrap.css.map */
